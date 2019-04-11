@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[关于博客]]></title>
+    <url>%2F2019%2F01%2F16%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[毕业至今已三年有余，工作生活皆收获良多，故在工作之余搭建此博客记录日常所得，初期计划包含以下内容 新技术学习笔记 日常问题记录]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo备忘录]]></title>
+    <url>%2F2018%2F07%2F27%2FHexo%E4%BD%BF%E7%94%A8%E5%A4%87%E5%BF%98%E5%BD%95%2F</url>
+    <content type="text"><![CDATA[个人小站搭建不易，且搭且珍惜，本文主要记录使用hexo搭建个人博客的常用功能及命令，以备日后使用或者调整配置时查看 版本信息 工具/组件 功能 版本号 node.js 运行时 v10.15.0 nvm node.js管理工具 0.34.0 next 主题 5.1.2 hexo 3.7.1 hexo-cli 1.1.0 已有配置及配置方式常用命令]]></content>
+      <categories>
+        <category>备忘</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>记录</tag>
+        <tag>技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Gradle for Android]]></title>
+    <url>%2F2018%2F07%2F27%2FGradle-for-Android%2F</url>
+    <content type="text"><![CDATA[1. gradle简介在开始了解gradle之前，需要了解一点groovy相关的基础知识，具体可请参考groovy 基础知识。Gradle是以Groovy语言为基础，基于DSL语法（DSL:Domain Specific Language, 即领域特定语言）的自动化构建工具，同时它也是一个编程框架。使用这个工具可以完成app的编译打包等工作。gradle api 1.1 gradle组件作为一个编程框架，gradle定义了编译的流程和规则，在 gradle 中，每一个待编译的工程都叫一个 Project。每一个 Project 在构建的时候都包含一系列的 Task。比如一个 Android APK 的编译可能包含：Java 源码编译 Task、资源编译Task、JNI 编译 Task、lint 检查 Task、打包生成 APK 的 Task、签名 Task 等。一个 Project 到底包含多少个 Task ，其实是由编译脚本指定的插件决定。插件是什么呢？插件就是用来定义 Task，并具体执行这些 Task 的东西。具体的编译工作都是通过插件的方式来完成的。比如编译 Java 有 Java 插件，编译 Groovy 有 Groovy 插件，编译 Android APP 有 Android APP 插件，编译 Android Library 有 Android Library 插件 2. gradle工作流程1.initialization-&gt;2.configuration-&gt;3.execution 2.1 initialization(初始化阶段)初始化阶段:读取根工程中setting.gradle中的include信息，决定有哪几个工程加入构建，并为这些需要加入构建的项目分别创建Project实例。 2.2 configuration(配置阶段)配置阶段:将整个构建的Project及Task关系确定，建立一个有向图来描述Task之间的依赖关系。实质是执行所有工程的build.gradle脚本。 2.3 execution(运行阶段)运行阶段:根据gradle命令传递过来的task名称，执行相关依赖任务 3. Gradle 编程模型及常用 APIGradle 基于 Groovy，Groovy 又基于 Java。所以，Gradle 执行的时候和 Groovy 一样，会把脚本转换成 Java 对象。Gradle主要有三种对象，这三种对象和三种不同的脚本文件对应，在 gradle 执行的时候，会将脚本转换成对应的对象： Gradle 对象：当我们执行 gradle xxx 或者什么的时候，gradle 会从默认的配置脚本中构造出一个 Gradle 对象。在整个执行过程中，只有这么一个对象。Gradle对象的数据类型就是 Gradle。 Project 对象：每一个 build.gradle 会转换成一个 Project 对象。 Settings 对象：显然，每一个 settings.gradle 都会转换成一个 Settings 对象 3.1 Gradle对象gradle对象在日常的配置中用的不多，具体可用的属性和方法可查阅官方文档 3.2 Project对象每一个 build.gradle 文件都会转换成一个 Project 对象。在 Gradle 术语中，Project 对象对应的是 Build Script。Project 包含若干 Tasks。另外，由于 Project 对应具体的工程，所以需要为 Project 加载所需要的插件，比如为 Java 工程加载 Java 插件。其实，一个 Project 包含多少 Task 往往是插件决定的。在 Project 中，做了以下的事： 加载插件，例如android application 插件。 不同插件有不同的配置，例如android application插件的android代码块 设置属性。3.3 Settings对象]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>android</tag>
+        <tag>gradle</tag>
+      </tags>
+  </entry>
+</search>
