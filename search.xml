@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[关于博客]]></title>
-    <url>%2F2019%2F01%2F16%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[毕业至今已三年有余，工作生活皆收获良多，故在工作之余搭建此博客记录日常所得，初期计划包含以下内容 新技术学习笔记 日常问题记录]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[Hexo备忘录]]></title>
     <url>%2F2018%2F07%2F27%2FHexo%E4%BD%BF%E7%94%A8%E5%A4%87%E5%BF%98%E5%BD%95%2F</url>
     <content type="text"><![CDATA[个人小站搭建不易，且搭且珍惜，本文主要记录使用hexo搭建个人博客的常用功能及命令，以备日后使用或者调整配置时查看 版本信息 工具/组件 功能 版本号 node.js 运行时 v10.15.0 nvm node.js管理工具 0.34.0 next 主题 5.1.2 hexo 3.7.1 hexo-cli 1.1.0 已有配置及配置方式常用命令]]></content>
