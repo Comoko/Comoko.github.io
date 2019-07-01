@@ -17,7 +17,7 @@
   <entry>
     <title><![CDATA[Hexo备忘录]]></title>
     <url>%2F2018%2F07%2F27%2FHexo%E4%BD%BF%E7%94%A8%E5%A4%87%E5%BF%98%E5%BD%95%2F</url>
-    <content type="text"><![CDATA[本文主要记录使用hexo搭建个人博客的常用功能及命令，以备日后使用或者调整配置时查看 版本信息 工具/组件 功能 版本号 node.js 运行时 v10.15.0 nvm node.js管理工具 0.34.0 next 主题 7.1.0 hexo 3.7.1 hexo-cli 1.1.0 版本更新记录 工具/组件 老版本号 新版本号 升级原因 备注 next 7.1.0 7.1.2 例行更新 无影响 已有配置及配置方式常用命令]]></content>
+    <content type="text"><![CDATA[本文主要记录使用hexo搭建个人博客的常用功能及命令，以备日后使用或者调整配置时查看 版本信息 工具/组件 功能 版本号 node.js 运行时 v10.15.0 nvm node.js管理工具 0.34.0 next 主题 7.1.0 hexo 3.7.1 hexo-cli 1.1.0 版本更新记录 工具/组件 老版本号 新版本号 升级原因 升级时间 备注 next 7.1.0 7.1.2 例行更新 2019.7.1 无影响 已有配置及配置方式常用命令]]></content>
       <categories>
         <category>备忘</category>
       </categories>
