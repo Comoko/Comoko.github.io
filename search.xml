@@ -4,6 +4,15 @@
     <title><![CDATA[android 持续集成]]></title>
     <url>%2F2019%2F07%2F01%2Fandroid-%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%2F</url>
     <content type="text"></content>
+      <categories>
+        <category>备忘</category>
+      </categories>
+      <tags>
+        <tag>android</tag>
+        <tag>jenkins</tag>
+        <tag>360加固</tag>
+        <tag>持续集成</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Hexo备忘录]]></title>
