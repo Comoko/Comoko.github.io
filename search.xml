@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[知识体系梳理(一)---java集合类]]></title>
+    <url>%2F2020%2F03%2F03%2Fknowledge-base2%2F</url>
+    <content type="text"><![CDATA[Java集合类相关归纳整理]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>基础</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[知识体系梳理(一)---JVM]]></title>
+    <url>%2F2020%2F03%2F02%2Fknowledge-base1%2F</url>
+    <content type="text"><![CDATA[知识体系梳理之Java基础JVM篇 Java虚拟机内存管理 垃圾回收机制类加载机制]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>基础</tag>
+        <tag>JVM</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[android 持续集成]]></title>
     <url>%2F2019%2F07%2F01%2Fandroid-%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%2F</url>
     <content type="text"></content>
